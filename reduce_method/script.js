@@ -9,9 +9,22 @@ const balance = movements.reduce((accumulator, currentElement, index, array) => 
     return accumulator + currentElement
 }, 0)
 console.log(balance)
-
 // let balance2 = 0
 // for (const mov of movements) {
 //     balance2 += mov
 // }
 // console.log(balance2)
+
+const maxAmount = movements.reduce((acc, mov) => {
+    if (acc > mov)
+        return acc
+    else
+        return mov
+}, movements[0])
+console.log(maxAmount)
+
+// let max = movements[0]
+// for (const mov of movements) {
+//     if (max < mov) max = mov
+// }
+// console.log(max)
