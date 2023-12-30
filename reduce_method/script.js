@@ -28,3 +28,14 @@ console.log(maxAmount)
 //     if (max < mov) max = mov
 // }
 // console.log(max)
+
+//chaining
+//PIPELINE
+const eurToInr = 92.04
+const totalDeposits =
+    movements
+        .filter(mov => mov > 0)
+        .map(mov => mov * eurToInr)
+        .reduce((acc, mov) => Math.trunc(acc + mov), 0)
+
+console.log(totalDeposits)
