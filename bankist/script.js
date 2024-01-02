@@ -332,6 +332,7 @@ btnClose.addEventListener('click', function (e) {
   const user = inputCloseUsername.value
   const pin = Number(inputClosePin.value)
   console.log(user, pin)
+
   inputCloseUsername.value = inputClosePin.value = ''
   inputCloseUsername.blur()
   inputClosePin.blur()
