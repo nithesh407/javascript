@@ -366,5 +366,5 @@ const createUsername = function (accs) {
   })
 }
 createUsername(accounts)
-console.log(accounts)
+
 
