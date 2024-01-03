@@ -82,7 +82,7 @@ againbtn.addEventListener('click', () => {
     checkbtn.disabled = false;
     displaymsg('start guessing...')
     document.querySelector('.guess').disabled = false;
-    document.querySelector('.score').textContent = 20
+    document.querySelector('.score').textContent = score
     document.body.style.backgroundColor = '#222'
     document.querySelector('.number').textContent = '?'
     document.querySelector('.guess').value = '';
