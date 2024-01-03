@@ -19,18 +19,8 @@ The game is two-person game called "Guess the Number". The first player thinks o
   
 # App Link
    
-     Game Link: https://gandhamathanv.github.io/guess-a-number/
+     https://nithesh407.github.io/guess-the-number/
      
-<a href="https://gandhamathanv.github.io/guess-a-number/">click here to play</a>
+<a href="https://nithesh407.github.io/guess-the-number/">click here to play</a>
 
 
-
-# Sample of the Game
-
-<img src="./samples/Screenshot 2023-01-26 at 10.22.08 PM.png" alt="sample 1" />
-
-<img src="./samples/Screenshot 2023-01-26 at 10.28.15 PM.png" alt="sample 2" />
-
-<img src="./samples/Screenshot 2023-01-26 at 10.28.35 PM.png" alt="sample 3" />
-
-<img src="./samples/Screenshot 2023-01-26 at 10.22.47 PM.png" alt="sample 4" />

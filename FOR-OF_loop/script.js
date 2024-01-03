@@ -58,3 +58,4 @@ const openingHours = Object.entries(restaurant.openingHours)
 for (const [key, { open, close }] of openingHours) {
     console.log(`restaurant available at ${key}, opens in ${open} and closes in ${close}`)
 }
+console.log(openingHours)
