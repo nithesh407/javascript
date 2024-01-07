@@ -118,3 +118,7 @@ h1 {
 .label-score {
   margin-bottom: 2rem;
 }
+
+.previous-guess {
+  margin-top: 2rem;
+}

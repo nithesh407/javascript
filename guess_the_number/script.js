@@ -17,6 +17,7 @@ const displayScore = (score) => {
     document.querySelector('.score').textContent = score
 }
 
+let guesses = []
 checkbtn.addEventListener('click', () => {
     const guess = Number(document.querySelector('.guess').value)
     if (!guess) {
@@ -74,6 +75,9 @@ checkbtn.addEventListener('click', () => {
             displaymsg('💥 you are out of score')
         }
     }
+    guesses += guess;
+    const g = [...guesses]
+    document.querySelector('.guesses').textContent = String(g)
 })
 
 againbtn.addEventListener('click', () => {
